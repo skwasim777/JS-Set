@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="demo"></p>
+    <script>
+      const names = new Set();
+      names.add("wasim");
+      names.add("sofiyan");
+      names.add("ubed");
+      const iterater = names.entries();
+      let txt = "";
+      for (const entry of iterater) {
+        txt += entry + "<br>";
+      }
+      document.getElementById("demo").innerHTML = txt;
+    </script>
+  </body>
+</html>

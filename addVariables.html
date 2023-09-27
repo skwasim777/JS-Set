@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Variables to set</title>
+  </head>
+  <body>
+    <p id="demo"></p>
+    <script>
+      // create set
+      const letters = new Set();
+       // create varibales
+      const a = "a";
+      const b = "b";
+      const c = "c";
+      // add the variables to the set 
+      letters.add(a);
+      letters.add(b);
+      letters.add(c);
+      document.getElementById("demo").innerHTML=letters.size;
+    </script>
+  </body>
+</html>
